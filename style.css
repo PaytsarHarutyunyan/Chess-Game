@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(151, 216, 195);
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .white {
+    background-color: #ffffff;
+  }
+  
+  .black {
+    background-color: #00b31b;
+  }
+  
+  .piece {
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
